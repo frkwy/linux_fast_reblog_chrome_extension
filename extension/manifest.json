@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "linux_tumblr_fast_reblog",
+  "description": "Enable fast reblog in Tumblr with Linux",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.tumblr.com/dashboard/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "fastReblog.js"
+  ],
+  "permissions": [
+    "https://www.tumblr.com/"
+  ]
+}
