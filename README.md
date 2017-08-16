@@ -5,7 +5,7 @@ Fast reblog with keyboard button t for linux.
 
 ## INSTALL
 
-* [chrome://extensions/](chrome://extensions/)より
+* [chrome://extensions/](chrome://extensions/)
     + Enable Developer mode
     + Load unpacked extension
 
